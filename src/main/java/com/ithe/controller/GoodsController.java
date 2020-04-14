@@ -75,7 +75,6 @@ public class GoodsController {
 		
 		Pageable pageable = PageRequest.of(0,list.size());
 		Page<Goods> pageList = PageUtils.createPageFromList(list, pageable);
-		
 		return pageList;
 	}
 
